@@ -1,5 +1,6 @@
 # Use HALs
 hal_client_domain(system_server, hal_lucid_fod)
+hal_client_domain(system_server, hal_lineage_touch)
 
 # Long Screenshot
 add_service(system_server, longshot_service)
