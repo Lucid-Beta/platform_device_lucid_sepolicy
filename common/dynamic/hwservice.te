@@ -1,1 +1,2 @@
 type hal_lucid_fod_hwservice, hwservice_manager_type;
+type hal_lucid_camera_motor_hwservice, hwservice_manager_type;

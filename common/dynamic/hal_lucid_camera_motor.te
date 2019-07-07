@@ -1,0 +1,5 @@
+# HwBinder IPC from client to server
+binder_call(hal_lucid_camera_motor_client, hal_lucid_camera_motor_server)
+
+add_hwservice(hal_lucid_camera_motor_server, hal_lucid_camera_motor_hwservice)
+allow hal_lucid_camera_motor_client hal_lucid_camera_motor_hwservice:hwservice_manager find;
